@@ -21,6 +21,7 @@ import L_PYTHON from "../../assets/img/skills/python.svg";
 import L_SQL from "../../assets/img/skills/sql.svg";
 import L_Microsoft_Office_Access from "../../assets/img/skills/Microsoft_Office_Access.svg";
 import L_vercel from "../../assets/img/skills/vercel-inc.png";
+import L_Gen from "../../assets/img/skills/genesys-vector-logo.svg";
 
 import L_jupyter from "../../assets/img/skills/jupyter.png";
 import L_android_studio from "../../assets/img/skills/android-studio.png";
@@ -77,31 +78,38 @@ export const skills = {
         skillName: "React JS",
       },
 
-  ],
-
-  backend: [
+  ], 
+    
+  databases: [
+    
 
     {
-        link: "https://www.djangoproject.com/",
-        imgAltText: "Django",
-        imgSrc: L_DJANGO,
-        skillName: "Django",
-      },
-      {
-        link: "https://flask.palletsprojects.com/",
-        imgAltText: "Flask",
-        imgSrc: L_FLASK,
-        skillName: "Flask",
-      },
-    {
-      link: "https://nodejs.org/en/",
-      imgAltText: "Node.js",
-      imgSrc: L_NODE_JS,
-      skillName: "Node.js",
+        link: "https://www.mongodb.com/",
+        imgAltText: "MongoDB",
+        imgSrc: L_MONGODB,
+        skillName: "MongoDB",
     },
-    
-    
-    
+
+      
+    {
+    link: "https://www.microsoft.com/en-ww/microsoft-365/access",
+    imgAltText: "Microsoft Office Access",
+    imgSrc: L_Microsoft_Office_Access,
+    skillName: "Microsoft Office Access",
+    }, 
+
+    {
+      link: "https://www.genesys.com/en-gb",
+      imgAltText: "Genesys",
+      imgSrc: L_Gen,
+      skillName: "Genesys",
+  },
+    {
+    link: "https://www.microsoft.com/en-ca/sql-server/sql-server-downloads",
+    imgAltText: "SQL",
+    imgSrc: L_SQL,
+    skillName: "SQL",
+    },
   ],
   hostingPlatforms: [
     {
@@ -170,29 +178,32 @@ export const skills = {
     },
     
   ],
-  databases: [
-    
+
+  backend: [
 
     {
-        link: "https://www.mongodb.com/",
-        imgAltText: "MongoDB",
-        imgSrc: L_MONGODB,
-        skillName: "MongoDB",
-    },
-      
+        link: "https://www.djangoproject.com/",
+        imgAltText: "Django",
+        imgSrc: L_DJANGO,
+        skillName: "Django",
+      },
+      {
+        link: "https://flask.palletsprojects.com/",
+        imgAltText: "Flask",
+        imgSrc: L_FLASK,
+        skillName: "Flask",
+      },
     {
-    link: "https://www.microsoft.com/en-ww/microsoft-365/access",
-    imgAltText: "Microsoft Office Access",
-    imgSrc: L_Microsoft_Office_Access,
-    skillName: "Microsoft Office Access",
-    }, 
-    {
-    link: "https://www.microsoft.com/en-ca/sql-server/sql-server-downloads",
-    imgAltText: "SQL",
-    imgSrc: L_SQL,
-    skillName: "SQL",
+      link: "https://nodejs.org/en/",
+      imgAltText: "Node.js",
+      imgSrc: L_NODE_JS,
+      skillName: "Node.js",
     },
+    
+    
+    
   ],
+  
   versionControl: [
     {
       link: "https://git-scm.com/",

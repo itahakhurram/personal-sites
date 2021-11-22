@@ -9,6 +9,7 @@ import L_quizbee from "../../assets/img/projects/quizbee.jpg";
 import L_space from "../../assets/img/projects/spaceinvader.jpg";
 import L_ping from "../../assets/img/projects/ping.jpg";
 import L_tic from "../../assets/img/projects/tictac.jpg";
+import L_home from "../../assets/img/projects/home.jpg";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -478,6 +479,121 @@ const TimeLine = () => {
                 
                 <UrlButton
                   href="https://github.com/itahakhurram/Space-Invader"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+            {/* Project: Homeland Statistics */}
+
+            <ImageEvent
+            date="14/03/2020"
+            className="text-center"
+            text="Homeland Statistics"
+            src={L_home}
+            alt="Homeland Statistics"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> •	Designed the website using Figma and Adobe Photoshop, and build a live countries statistic using React and API, which displays population, area, Gini and neighboring countries, deployed using Vercel.
+                        <hr />
+                        
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                        <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JS}
+                                alt="Javascript"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Javascript
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_vscode}
+                                alt="VSCODE"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Visual Studio
+                            </span>
+                          </li>
+
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_vercel}
+                                alt="Vercel"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Vercel
+                            </span>
+                          </li>
+                         
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                
+                <UrlButton
+                  href="https://github.com/itahakhurram/Homeland-Statistic"
                   target="_blank"
                 >
                   SOURCE CODE

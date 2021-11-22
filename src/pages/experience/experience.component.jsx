@@ -15,27 +15,27 @@ const Experience = () => {
           <Tilt options={{ max: 25 }}>
             <Card>
               <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                <Card.Img variant="top" className="img-resize" src={L_ACCENTURE} alt="Accenture logo" />
+                <Card.Img variant="top" src={L_ACCENTURE} alt="Accenture logo" />
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center">Laurier Data Science Society</Card.Title>
+                  <Card.Title className="text-center">Bank of Montreal</Card.Title>
                 </div>
                 <div><br/>
                   <Card.Text className="text-center style">
-                    <strong className="body-title-style ">Project Manager</strong>
+                    <strong className="body-title-style ">Junior Application Analyst</strong>
                     <br />
                     
                     
-                    <strong>Duration:</strong> June 2020 - Present
+                    <strong>Duration:</strong> September 2021 - Present
                     <br/>
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
-                      <li>Causal inference research using statistical models to assess COVID-19 impact on mobility and economy </li>
-                      <li>With a team consisting of 4 students built an accurate final report after cleaning data and visualized data sets by applying basic modeling techniques and statistical analysis tools e.g R and Microsoft Excel
-                      </li>
-               
+                      <li>Responsible for development of IVR and CTI (Computer-Telephony Integration) software, supporting all lines of business including card activation, sales, service, payments, marketing, fraud, collections, and merchant disputes. </li>
+                      <li>Developed the IVR applications using the Genesys Composer and used Tomcat as application servers.</li>
+                      <li>Prepared the test cases and test plans for various phases of testing, debugged the application-level issues using NDF logs and environmental level issues using Configuration, Reporting, Log DB, SCS sever level logs</li>
+                      <li>Developed IVR reports for Business using VBA, for pulling the call stats, and displaying it in a spread sheet along with the containment rate of IVR applications.</li>
                   
 
                     </ul>

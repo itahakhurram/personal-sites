@@ -24,13 +24,13 @@ const About = () => {
                 
                 <br />I am currently a Data Science student at Wilfrid Laurier University.
                 
-                I have a passion for software design, programming, and architecture.
+                I have a passion for software design, data analytics, programming, and architecture.
                 I have multiple years of experience in various languages such as Python, Java, C, JS, and many more. I enjoy facing problems head on and improving my skills through challenging tasks. I love to learn about new technologies and hope to become the best I can.  
  <br />
                 <Col className="d-flex justify-content-left flex-wrap">
                   
                   <div>
-                    <a href="https://drive.google.com/file/d/1iGS5Lh9pDGvQFos_NLxGwLTpu2-XEOPa/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1Klud9JZMNOVGhoXqMhiHvc4F8zv85xQ0/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>
