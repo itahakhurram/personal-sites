@@ -17,6 +17,9 @@
     font-weight: 800;
     color: white;
   }
+  .jumbotron {
+    margin-top: -75px;
+ }
 
   .text-left{
     color: white;

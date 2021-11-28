@@ -1,6 +1,24 @@
-.contact-jumbotron {
-    background-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
+.button, input {
+  overflow: visible;
+  color: aliceblue;
+  background-color: transparent;
+}
+.h3{
+  color: white;
+}
+.cus-btn{
+  background-color: transparent;
+  color: aliceblue;
+
+}
+
+.button, select{
+  background-color: red;
+  color: red !important;
+align-items: initial;}
+
+.textarea {
+  overflow: visible;
+  color: aliceblue;
+  background-color: transparent;
+}

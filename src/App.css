@@ -19,3 +19,26 @@ hr {
   height: 100%;
   z-index: 1;
 }
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(aliceblue, grey);
+  border-radius: 25px;
+  
+}
+
+.scrollhost {
+  scrollbar-width: none;
+ -ms-overflow-style: none;
+}
+
+.scrollhost::-webkit-scrollbar {
+ display: none;
+}
