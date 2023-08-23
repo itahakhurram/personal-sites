@@ -124,7 +124,7 @@ const Index = () => {
                     <span>Sending Message...</span>
                   </button>
                 ) : (
-                  <button type="submit" className="cus-btn red-btn">
+                  <button type="submit" className="cus-btn primary-btn">
                     <span>Send Message</span>
                   </button>
                 )}

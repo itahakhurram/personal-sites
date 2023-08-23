@@ -22,10 +22,7 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 
-                <br />I am currently a Data Science student at Wilfrid Laurier University.
-                
-                I have a passion for software design, data analytics, programming, and architecture.
-                I have multiple years of experience in various languages such as Python, Java, C, JS, and many more. I enjoy facing problems head on and improving my skills through challenging tasks. I love to learn about new technologies and hope to become the best I can.  
+                <br />Welcome to my personal website! With nearly 2 years of cooperative experience and a focus on data analytics and development, I'm currently a Data Science student at Wilfrid Laurier University, set to graduate at the end of 2023. Passionate about software design, programming, and data architecture, I've mastered languages like Python, Java, C, and more. I thrive on challenges that enhance my skills and eagerly embrace new technologies. Join me as I strive to reach new heights in the ever-evolving tech landscape.  
  <br />
                 <Col className="d-flex justify-content-left flex-wrap">
                   

@@ -2,6 +2,8 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
+import L_1968 from "../../assets/img/projects/1968.jpg";
+import L_go from "../../assets/img/projects/go.png";
 import L_COVIDTRACKER from "../../assets/img/projects/covid.png";
 import L_weather from "../../assets/img/projects/weather.jpg";
 import L_calc from "../../assets/img/projects/Calc.png";
@@ -35,14 +37,207 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
-        
+
+
+
+        <ImageEvent
+            date="28/06/2023"
+            className="text-center"
+            text="ResearchConnect Global: Mapping Collaborative Minds"
+            src={L_1968}
+            alt="ResearchConnect Global: Mapping Collaborative Minds" >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong>Operated with university professors and researchers to conceptualize, design, and implement an interactive platform using React and API integration. The platform serves as a global hub for researchers, displaying geographical locations and ongoing research projects, fostering worldwide collaboration. Presented the project to an audience of 90+, highlighting its potential to revolutionize research collaboration and academic networking.
+                        <hr />
+                        
+                        <hr />
+                        <strong>Tools:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_vscode}
+                                alt="Visual Studio"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Visual Studio
+                            </span>
+                          </li>
+                          
+                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                
+                
+               
+              </div>
+            </div>
+          </ImageEvent>
+
+
+        {/* Project: WLUGo */}
+
+        <ImageEvent
+            date="11/01/2023"
+            className="text-center"
+            text="WLUGo"
+            src={L_go}
+            alt="WLUGo" >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> WLU Go is a web application that allows users to view, rate, and review the courses offered at Wilfrid Laurier University (WLU). It would help students get an idea of what a course is like by reading reviews and different rating parameters. As of now, there is no dedicated way for WLU students to get a thorough understanding of the courses offered other than through word of mouth. We want WLU Go to be a one-stop universal web application that is easily accessible and provides information on any WLU course with just a quick course code search.
+                        <hr />
+                        
+                        <hr />
+                        <strong>Tools:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_vscode}
+                                alt="Visual Studio"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Visual Studio
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_PY}
+                                alt="Python"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Python
+                            </span>
+                          </li>
+                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                
+                <UrlButton
+                  href="https://github.com/itahakhurram/WLUGO"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+               
+              </div>
+            </div>
+          </ImageEvent>
+
+
+        {/* Project: COVID-19 Tracker */}
         <ImageEvent
             date="01/10/2020"
             className="text-center"
             text="Covid-19 Tracker"
             src={L_COVIDTRACKER}
-            alt="Covid-19 Tracker"
-          >
+            alt="Covid-19 Tracker" >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
