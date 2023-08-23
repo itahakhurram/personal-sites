@@ -60,7 +60,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong>Operated with university professors and researchers to conceptualize, design, and implement an interactive platform using React and API integration. The platform serves as a global hub for researchers, displaying geographical locations and ongoing research projects, fostering worldwide collaboration. Presented the project to an audience of 90+, highlighting its potential to revolutionize research collaboration and academic networking.
+                        <strong>Description:</strong>Operated with university professors and researchers to conceptualize, design, and implement an interactive platform using React and API integration. The platform serves as a global networking hub for researchers, displaying geographical locations and ongoing research projects, fostering worldwide collaboration. Presented the project to an audience of 90+, highlighting its potential to revolutionize research collaboration and academic networking.
                         <hr />
                         
                         <hr />
