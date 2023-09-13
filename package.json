@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://itahakhurram.github.io/personal-site",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@merc/react-timeline": "^0.1.42",
