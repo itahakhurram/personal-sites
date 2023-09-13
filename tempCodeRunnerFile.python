@@ -1,0 +1,19 @@
+def rdup(w):
+    # 2 variables new word and previous word
+    #iterate through the word
+    #char does that equal to previous character
+    #previous char equal char
+
+    nw = ""
+    pc = ""
+    for i in w:
+        if i != pc:
+            nw+=i
+            pc =i
+        else:
+            nw-=pc
+    return nw
+
+w ="noondeonfdder"
+newword= rdup(w)
+print(newword)
